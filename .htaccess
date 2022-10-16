@@ -3,10 +3,10 @@ RewriteCond % { REQUEST_FILENAME }!-d
 RewriteCond % { REQUEST_FILENAME }\.html - f
 RewriteRule ^ (.*) $ $1.html[NC, L]
 ErrorDocument 404 /404.html
-Redirect 301 /discord https://discord.gg/XJkArUbmS8
-Redirect 301 /telegram https://t.me/MetaSapiensComm
-Redirect 301 /instagram https://www.instagram.com/metasapiens.comm/
-Redirect 301 /twitter https://twitter.com/MetaSapienscomm
-Redirect 301 /linkedin https://www.linkedin.com/company/metasepians/
-Redirect 301 /youtube https://www.youtube.com/channel/UCx1lAzxc2_MEc_m9tefVNlg
-Redirect 301 /whatsapp https://chat.whatsapp.com/DUAcLncwznqKizb6D0RMhb 
+Redirect 301 /discord/ https://discord.gg/XJkArUbmS8
+Redirect 301 /telegram/ https://t.me/MetaSapiensComm
+Redirect 301 /instagram/ https://www.instagram.com/metasapiens.comm/
+Redirect 301 /twitter/ https://twitter.com/MetaSapienscomm
+Redirect 301 /linkedin/ https://www.linkedin.com/company/metasepians/
+Redirect 301 /youtube/ https://www.youtube.com/channel/UCx1lAzxc2_MEc_m9tefVNlg
+Redirect 301 /whatsapp/ https://chat.whatsapp.com/DUAcLncwznqKizb6D0RMhb 
